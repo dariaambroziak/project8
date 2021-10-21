@@ -72,10 +72,6 @@ $primaryLight: #FC6C6D;
     text-decoration: none;
   }
   .button {
-    // display: inline-flex;
-    // justify-content: center;
-    // align-items: center;
-    // white-space: nowrap;
     text-align: center;
     transition: all .3s;
     cursor: pointer;
@@ -430,7 +426,10 @@ $primaryLight: #FC6C6D;
   }
   .button{
     position: absolute;
-    bottom: 2rem;
+    bottom: 3.2rem;
+    @media (max-width: 1023px) {
+      bottom: 2.5rem;
+    }
   }
   h2 {
     @media (max-width: 767px) {
@@ -442,7 +441,7 @@ $primaryLight: #FC6C6D;
     position: relative;
     max-height: 670px;
     @media (max-width: 576px) {
-      height: 320px;
+      min-height: 320px;
     }
     &-item {
       width: 100%;
@@ -467,6 +466,8 @@ $primaryLight: #FC6C6D;
       background-position: center;
       @media (max-width: 576px) {
         background-image: url(images/lp-hama-foto/mobile/img-2.png);
+        height: 80vw;
+        min-height: 320px;
       }
     }
     .img-4 {
@@ -475,17 +476,21 @@ $primaryLight: #FC6C6D;
       background-position: center;
       @media (max-width: 576px) {
         background-image: url(images/lp-hama-foto/mobile/img-4.png);
+        height: 80vw;
+        min-height: 320px;
       }
     }
     .img-6 {
       background-image: url(images/lp-hama-foto/desktop/img-6.jpg);
       background-size: contain;
       background-position: center;
+      background-repeat: no-repeat;
       @media (max-width: 576px) {
         background-image: url(images/lp-hama-foto/mobile/img-6.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        height: 320px;
       }
     }
     .img-8 {
@@ -494,9 +499,10 @@ $primaryLight: #FC6C6D;
       background-position: center;
       @media (max-width: 576px) {
         background-image: url(images/lp-hama-foto/mobile/img-8.png);
-        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        height: 80vw;
+        min-height: 320px;
       }
     }
     .img-11 {
@@ -505,9 +511,10 @@ $primaryLight: #FC6C6D;
       background-position: center;
       @media (max-width: 576px) {
         background-image: url(images/lp-hama-foto/mobile/img-11.png);
-        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        height: 80vw;
+        min-height: 320px;
       }
     }
     .img-13 {
@@ -517,8 +524,10 @@ $primaryLight: #FC6C6D;
       @media (max-width: 576px) {
         background-image: url(images/lp-hama-foto/mobile/img-13.png);
         background-size: contain;
-        background-position: center;
+        background-position: right bottom;
         background-repeat: no-repeat;
+        height: 80vw;
+        min-height: 320px;
       }
     }
   }
@@ -533,7 +542,7 @@ $primaryLight: #FC6C6D;
     background-position: center;
     @media (max-width: 576px) {
       min-height: 200px;
-      height: 40vw;
+      height: 60vw;
       background-position: center;
       background-size: cover;
     }
@@ -546,7 +555,7 @@ $primaryLight: #FC6C6D;
     background-position: center;
     @media (max-width: 576px) {
       min-height: 200px;
-      height: 40vw;
+      height: 60vw;
       background-position: center;
       background-size: cover;
     }
@@ -559,7 +568,7 @@ $primaryLight: #FC6C6D;
     background-position: center;
     @media (max-width: 576px) {
       min-height: 200px;
-      height: 40vw;
+      height: 60vw;
       background-position: center;
       background-size: cover;
     }
@@ -572,7 +581,7 @@ $primaryLight: #FC6C6D;
     background-position: center;
     @media (max-width: 576px) {
       min-height: 200px;
-      height: 40vw;
+      height: 60vw;
       background-position: center;
       background-size: cover;
     }
@@ -585,7 +594,7 @@ $primaryLight: #FC6C6D;
     background-position: center;
     @media (max-width: 576px) {
       min-height: 200px;
-      height: 40vw;
+      height: 60vw;
       background-position: center;
       background-size: cover;
     }
@@ -598,7 +607,7 @@ $primaryLight: #FC6C6D;
     background-position: center;
     @media (max-width: 576px) {
       min-height: 200px;
-      height: 40vw;
+      height: 60vw;
       background-position: center;
       background-size: cover;
     }
