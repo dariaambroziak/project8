@@ -541,6 +541,12 @@
   }
 }
 
+.lp-hama-foto .offer-gradient .offer__content {
+  height: auto;
+  min-height: auto;
+  padding-bottom: 30px;
+}
+
 .lp-hama-foto .offer-color1 {
   background: #D4DDE0;
 }
@@ -580,10 +586,6 @@
   .lp-hama-foto .offer-color .offer__content {
     height: auto;
   }
-}
-
-.lp-hama-foto .offer-color .offer__content p:last-child {
-  border: 1px solid red;
 }
 
 @media (max-width: 576px) {
@@ -660,7 +662,7 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .offer__images .img-1 {
-    background-image: url(images/lp-hama-foto/mobile/img-1.png);
+    background-image: url(images/lp-hama-foto/mobile/img-1.jpg);
     background-position: top;
   }
 }
@@ -673,8 +675,8 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .offer__images .img-2 {
-    background-image: url(images/lp-hama-foto/mobile/img-2.png);
-    height: 80vw;
+    background-image: url(images/lp-hama-foto/mobile/img-2.jpg);
+    height: 100vw;
     min-height: 320px;
   }
 }
@@ -687,8 +689,8 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .offer__images .img-4 {
-    background-image: url(images/lp-hama-foto/mobile/img-4.png);
-    height: 80vw;
+    background-image: url(images/lp-hama-foto/mobile/img-4.jpg);
+    height: 100vw;
     min-height: 320px;
   }
 }
@@ -702,7 +704,7 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .offer__images .img-6 {
-    background-image: url(images/lp-hama-foto/mobile/img-6.png);
+    background-image: url(images/lp-hama-foto/mobile/img-6.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -718,10 +720,10 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .offer__images .img-8 {
-    background-image: url(images/lp-hama-foto/mobile/img-8.png);
+    background-image: url(images/lp-hama-foto/mobile/img-8.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vw;
+    height: 100vw;
     min-height: 320px;
   }
 }
@@ -734,7 +736,7 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .offer__images .img-11 {
-    background-image: url(images/lp-hama-foto/mobile/img-11.png);
+    background-image: url(images/lp-hama-foto/mobile/img-11.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 80vw;
@@ -750,7 +752,7 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .offer__images .img-13 {
-    background-image: url(images/lp-hama-foto/mobile/img-13.png);
+    background-image: url(images/lp-hama-foto/mobile/img-13.jpg);
     background-size: contain;
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -769,6 +771,7 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .photo-1 {
+    background-image: url(images/lp-hama-foto/mobile/img-3.jpg);
     min-height: 200px;
     height: 60vw;
     background-position: center;
@@ -786,6 +789,7 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .photo-5 {
+    background-image: url(images/lp-hama-foto/mobile/img-5.jpg);
     min-height: 200px;
     height: 60vw;
     background-position: center;
@@ -803,6 +807,7 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .photo-7 {
+    background-image: url(images/lp-hama-foto/mobile/img-7.jpg);
     min-height: 200px;
     height: 60vw;
     background-position: center;
@@ -820,6 +825,7 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .photo-9 {
+    background-image: url(images/lp-hama-foto/mobile/img-9.jpg);
     min-height: 200px;
     height: 60vw;
     background-position: center;
@@ -837,6 +843,7 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .photo-12 {
+    background-image: url(images/lp-hama-foto/mobile/img-12.jpg);
     min-height: 200px;
     height: 60vw;
     background-position: center;
@@ -854,6 +861,7 @@
 
 @media (max-width: 576px) {
   .lp-hama-foto .photo-14 {
+    background-image: url(images/lp-hama-foto/mobile/img-14.jpg);
     min-height: 200px;
     height: 60vw;
     background-position: center;
